@@ -1,0 +1,1 @@
+cmd_/home/daniel/OS/Lab7/NetworkDriver.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/daniel/OS/Lab7/NetworkDriver.ko /home/daniel/OS/Lab7/NetworkDriver.o /home/daniel/OS/Lab7/NetworkDriver.mod.o
